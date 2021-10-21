@@ -70,8 +70,7 @@ export class HomePage {
         latitude: coordinates.coords.latitude,
         longitude: coordinates. coords.longitude,
         zoom: 12,
-        bearing: 1,
-        animate: false
+        bearing: 0,
       });
     })
   }
